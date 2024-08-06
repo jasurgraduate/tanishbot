@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const TELEGRAM_API_URL = `https://api.telegram.org/bot${process.env.REACT_APP_TELEGRAM_BOT_TOKEN}`;
-const NETLIFY_FUNCTION_URL = 'https://tanish.netlify.app/'; // Replace with your Netlify function URL
+const NETLIFY_FUNCTION_URL = 'https://uzchat.netlify.app/'; // Replace with your Netlify function URL
 
 exports.handler = async () => {
   try {

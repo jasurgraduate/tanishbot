@@ -2,7 +2,7 @@ const axios = require('axios');
 
 exports.handler = async (event, context) => {
   const TELEGRAM_API_URL = `https://api.telegram.org/bot${process.env.REACT_APP_TELEGRAM_BOT_TOKEN}`;
-  const NETLIFY_FUNCTION_URL = 'https://tanish.netlify.app/';
+  const NETLIFY_FUNCTION_URL = 'https://uzchat.netlify.app/';
 
   console.log('Setting up webhook...');
   console.log('Telegram API URL:', TELEGRAM_API_URL);
